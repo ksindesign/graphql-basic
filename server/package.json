@@ -1,0 +1,19 @@
+{
+  "name": "graphql-basic",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "stop": "lsof -ti:4000 | xargs kill -9"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.12.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.10"
+  }
+}

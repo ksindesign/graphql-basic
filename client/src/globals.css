@@ -1,0 +1,27 @@
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+
+  div {
+    background: #ccc;
+  }
+}
+
+input {
+  outline: none;
+}
+
+.createUser {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
